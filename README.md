@@ -1,0 +1,1 @@
+# Price Panel for Personal, Small Team and Enterprise profiles.
