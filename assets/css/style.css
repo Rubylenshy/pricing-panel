@@ -45,6 +45,7 @@ html{
 .container hr{
     width: 50%;
     margin: 10px auto;
+    opacity: 20%;
 }
 .card{
     height: 24em;
@@ -69,16 +70,25 @@ html{
     text-decoration: none;
 }
 .sign-up{
-    padding: 12px 18px;
+    padding: 12px 25px;
     color: rgb(9, 146, 201);
     border-radius: 10px;
     border: 1px solid rgb(9, 146, 201);
+}
+.sign-up:hover{
+    color: white;
+    background-color: rgb(9, 146, 201);
 }
 .free-trial{
     background-color: rgb(9, 146, 201);
     color: white;
     border-radius: 10px;
-    padding: 12px 15px;
+    padding: 12px 25px;
+}
+.free-trial:hover{
+    color: rgb(9, 146, 201);
+    border: 1px solid rgb(9, 146, 201);
+    background-color: transparent;
 }
 .img-p{
     height: 7em;
@@ -104,6 +114,6 @@ html{
 
 .vr{
     border: 1px solid grey;
-    opacity: 40%;
+    opacity: 20%;
     margin: 0 20px;
 }
